@@ -25,7 +25,7 @@
 	let obj = Object.create(proto);
 	obj.xxx //"GET xxx"
 }
-//利用Proxy,可以将读取属性的操作get,转化为执行某个函数,从而实现属性的链式操作。
+//利用Proxy,可以读取数组-1。
 {
 	function createArray(...elements) {
 		let handler = {
