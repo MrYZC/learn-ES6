@@ -1,0 +1,1 @@
+Array.prototype.join.call('hello', '-');  //字符串使用数组的静态方法
