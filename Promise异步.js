@@ -1,5 +1,5 @@
 //Promise对象
-function helloworl (ready) {
+function helloworld (ready) {
 	return new Promise(functin (resolve, reject) {
 		if (ready) {
 			resolve("hello World!");
